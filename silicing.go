@@ -26,5 +26,5 @@ func main(){
 
 	//copy from one element to other element
 	var n2=make([]int,len(n1))
-	fmt.Println(n2)
+	fmt.Println(len(n2),len(n1))
 }
