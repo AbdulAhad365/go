@@ -27,4 +27,6 @@ func main(){
 	//copy from one element to other element
 	var n2=make([]int,len(n1))
 	fmt.Println(len(n2),len(n1))
+	//now here is the second way for silicing
+	fmt.Println("silicing")
 }
