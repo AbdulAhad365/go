@@ -1,5 +1,7 @@
 package main
+import "golang.org/x/exp/slices"
 import "fmt"
+
 func main(){
 	var nums[]int
 	// fmt.Println(nums)
@@ -37,5 +39,13 @@ func main(){
 
 	// 1) slice operator
 	var n3=[]int{1,2,3}
+	var n4=[]int{1,2,3}
 	fmt.Println(n3[0:2]) 
+
+	//2) silice package
+	fmt.Println(slices.Equal(n3,n4))
+
+	//2d
+	var n5=[][]int{{1,2,3,4},{5,6,7,8}}
+	fmt.Println(n5)
 }
