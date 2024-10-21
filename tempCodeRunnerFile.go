@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"maps"
 )
 
 func main() {
@@ -31,6 +32,14 @@ func main() {
 	// clear(m)c
 
 	//			WAY 2:
-	m1:=map[string]int{"price":24,"phones":34}
-	fmt.Print(m1)
+	m1 := map[string]int{"price": 24, "phones": 34}
+	m2 := map[string]int{"price": 24, "phones": 34}
+	v, ok := m1["price"]
+
+	fmt.Print("--------------- ")
+	fmt.Print(v, ok)
+
+	// fmt.Print(m1, m1["price"])
+	//compare and & check if two maps are equal
+	fmt.Println("Map1==Map2", maps.Equal(m1, m2))
 }
