@@ -30,7 +30,6 @@ func main() {
 	//to get the unicode in the letter or strings
 	for i, c := range "ahadname" {
 		fmt.Print(i, c)
-		fmt.Print("---chr
-		")
+		fmt.Print("---chr")
 	}
 }
