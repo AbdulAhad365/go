@@ -12,4 +12,5 @@ func main() {
 	result := add(3, 5)
 	fmt.Print(result)
 	fmt.Println(getLanguages())
+	//ADD OTHER FUNCTIONS CALLS
 }
