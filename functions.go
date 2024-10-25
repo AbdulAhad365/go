@@ -26,6 +26,4 @@ func main() {
 	proces := process()
 	fmt.Print(proces(4))
 
-	//call the function	func ()  {
-
 }
