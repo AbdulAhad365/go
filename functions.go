@@ -25,5 +25,6 @@ func main() {
 	//ADD OTHER FUNCTIONS CALLS
 	proces := process()
 	fmt.Print(proces(4))
+	// add more functions
 
 }
