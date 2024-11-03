@@ -26,7 +26,7 @@ func main() {
 		fmt.Print(j, n2)
 		fmt.Print("-----")
 	}
-
+	// range between
 	//to get the unicode in the letter or strings
 	for i, c := range "ahadname" {
 		fmt.Print(i, c)
