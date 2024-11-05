@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	// HOW MAPS CAN BE USED
+	// HOW MAPS CAN BE USEDf
 	//maps -> hash,object, dictionary
 
 	//1) create the map
