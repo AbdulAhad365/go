@@ -15,6 +15,7 @@ type delivery struct {
 	createdAt	time.Time
 	customer
 }
+//my main file here
 int main(){
 	  new_delivery:=delivery{
 		id	"ahad",
