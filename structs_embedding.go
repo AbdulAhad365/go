@@ -8,6 +8,7 @@ type customer struct{
 	phone	int
 	email	string
 }
+// struct of the delivery
 type delivery struct {
 	id		string
 	amount	float32
