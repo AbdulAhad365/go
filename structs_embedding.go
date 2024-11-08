@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"time"
 )
+// customer struct
 type customer struct{
 	phone	int
 	email	string
