@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// function for finding the sum
 func sum(nums ...int) int {
 	// func sum(nums ...interface{}) int {
 	//we get a slice from it
