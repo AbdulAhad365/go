@@ -2,9 +2,12 @@ package main
 
 import "fmt"
 
+// add the two of the elements
 func add(a int, b int) int {
 	return a + b
 }
+
+// return the languages
 func getLanguages() (string, string, string, string, bool) {
 	return "golang", "javascript", "c", "typescript", true
 }
