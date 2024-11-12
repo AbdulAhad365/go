@@ -1,9 +1,13 @@
 package main
-import "fmt"
-import "time"
+
+import (
+	"fmt"
+	"time"
+)
+
 // import "ti/me"
-func who_am_i(i interface{}){
-	switch i.(type){
+func who_am_i(i interface{}) {
+	switch i.(type) {
 	case int:
 		fmt.Println("int")
 	case string:
@@ -11,9 +15,11 @@ func who_am_i(i interface{}){
 	}
 
 }
-func main(){
-	i:=3;
-	switch i{
+
+// main function of the switch statement
+func main() {
+	i := 3
+	switch i {
 	case 1:
 		fmt.Println("one")
 	case 2:
@@ -26,17 +32,17 @@ func main(){
 
 	//---------------------------
 
-	// multiple conditon switch 
-	switch time.Now().Weekday(){
-	case time.Saturday,time.Sunday:
+	// multiple conditon switch
+	switch time.Now().Weekday() {
+	case time.Saturday, time.Sunday:
 		fmt.Println("its weekand")
 	default:
 		fmt.Println("its a work day")
-	}	
+	}
 
 	//type switch
-	whoami:=func(i interface{}){
-		switch i.(type){
+	whoami := func(i interface{}) {
+		switch i.(type) {
 		case int:
 			fmt.Println("int value")
 		case string:
@@ -46,7 +52,6 @@ func main(){
 		default:
 			fmt.Println("Other")
 		}
-
 
 	}
 
