@@ -12,6 +12,8 @@ func sum(nums ...int) int {
 	}
 	return total
 }
+
+// Main function
 func main() {
 	// fmt.Println(1, 2, 3, 4, "hello there ")
 	total := sum(1, 2, 3, 4)
